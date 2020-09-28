@@ -7,7 +7,7 @@ Updated: 03/06/2018
 /* Package defaults that we slightly tweak */
 
 a, a > code {
-  color: #cc0033; /* rgb(249, 38, 114) */
+  color: #9B870C; /* rgb(249, 38, 114) */
   text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url('imgs/warp_stars.jpg');
+  background-image: url('imgs/philipp-pilz-iQRKBNKyRpo-unsplash.jpg');
   /* background-position: 13% 35%;
   background-size: 95px;
   background-color: #fff; 
@@ -167,7 +167,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* section divider red */
 .title-slide-section-red {
-  background-color: #cc0033;
+  background-color: #9B870C;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
@@ -224,7 +224,7 @@ strong {
 }
 
 .RUred {
-  color: #cc0033;
+  color: #9B870C;
 }
 
 /* Add blue tag */
@@ -255,7 +255,7 @@ strong {
 
 /* Color adjustments to headers */
 h1 {
-  color: #cc0033;
+  color: #9B870C;
 }
 
 h3 {

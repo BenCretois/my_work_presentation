@@ -4,6 +4,7 @@
     <title>PhD Progress</title>
     <meta charset="utf-8" />
     <meta name="author" content="Benjamin Cretois" />
+    <link href="libs/font-awesome-5.3.1/css/fontawesome-all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="rutgers-tidyverse.css" type="text/css" />
     <link rel="stylesheet" href="rutgers-fonts_og.css" type="text/css" />
   </head>
@@ -17,14 +18,24 @@ class: center, middle, inverse, title-slide
 
 ---
 
+class: inverse, middle, center
+
+## Keep in touch!
+
+<i class="fas  fa-paper-plane "></i> [benjamin.cretois@ntnu.no](benjamin.cretois@ntnu.no)
+
+<i class="fab  fa-twitter "></i> [Benjamin_M_CR](https://twitter.com/Benjamin_M_CR)
+
+<i class="fab  fa-github "></i> [BenCretois](https://github.com/BenCretois)
+
+<i class="fas  fa-link "></i> [benjamincretois.netlify.app](https://benjamincretois.netlify.app/)
+
+---
 class: inverse, center, middle
 
 # **1st phase: Using distribution data**
 ## First paper
-
-# 🦄
-
-![](https://media.giphy.com/media/2D3d4M1J3qawo/giphy.gif)
+## 📰
 
 ---
 # First paper 
@@ -65,8 +76,7 @@ class: inverse, center, middle
 
 # **1st phase: Using distribution data**
 ## Second paper
-
-# 💪
+## 📰
 
 ---
 # 2nd paper
@@ -88,8 +98,7 @@ class: inverse, center, middle
 
 # **1st phase: Using distribution data**
 ## 3rd paper
-
-# 💪
+## 📰
 
 ---
 # 3rd paper
@@ -121,43 +130,50 @@ class: inverse, center, middle
 # **2nd phase: Understanding distribution data**
 ## Characterizing CS data &amp; account for its biases
 
-# 🏄
+# 📊
 
 ---
 # 2nd phase
 
-* While useful (as shown in phase 1), distribution maps heavily depends on the quality &amp; the amount of data available. This is especially true at lower resolution!
+* While useful (as shown in phase 1), **distribution maps heavily depends on the quality &amp; the amount of data available**. This is especially true at lower resolution!
 
 * Because of this, certain areas may be non sampled even though the species of interest is present.
 
-* We need to understand the drivers of citizen science observations. 
+* We need to understand the drivers of citizen science observations &amp; which biases they exhibit. 
 
-* Using the understanding to properly integrate the dataset &amp; obtain more accurate prediction maps.
+* We can then use this understanding to properly integrate the dataset &amp; obtain more accurate prediction maps.
 
 ---
 class: center, middle
 
-&lt;img src="imgs/csmap.png" width="400px" /&gt;
+&lt;img src="index_files/figure-html/unnamed-chunk-7-1.png" width="400px" /&gt;
 
-Some areas should host roe deer but are not sampled by CS.
+Some areas **should** host roe deer but are not sampled by CS.
 
 Some areas are non hunted but hosts citizen scientists observations.
 ---
 # 2nd phase
 
-How are data generated?
+How are data generated? 🕵️‍♂️
 
+--
 
 &lt;img src="imgs/obsprocess.png" width="2537" /&gt;
 
 ---
 # 2nd phase
 
-* Case study on the distribution of roe deer (Capreolus capreolus).
+* Case study on the distribution of roe deer (*Capreolus capreolus*) and moose (*Alces alces*).
 
-* We have telemetry data and we are able to infer the “true” use of the habitat or where the species is in reality
+* We have telemetry data and we are able to infer the **“true”** use of the habitat or where the species is in reality.
 
-* Is it so different from citizen science?
+--
+
+* Are telemetry observations so different from citizen science?
+
+--
+
+* Is there any seasonal differences?
 
 ---
 class: center, middle
@@ -170,46 +186,63 @@ class: center, middle
 ---
 # 2nd phase
 
-* Why such differences in the distribution of the observations?
+* We hypothesize roe deer distribution not to be so different from Citizen Science observations
 
-* Which areas lack observations? – We hypothesize areas far from urban centers
+--
 
-* Can we tone down these biases by adding other dataset? – We test data fusion
+* For moose, this could be another story ...
 
 ---
 class: inverse, center, middle
 
-# And next ...
+# Challenges
 
-# 🏄
+* The model I want to implement (i.e. **Point process model**) is relatively new in ecology even though quite developed in other areas.
 
----
-# Next ...
+* The data I have are subjects to **Spatial biases** and **Temporal biases**. We need to include both of them in our statistical model
 
-* Using the part 1 results to fusion properly the dataset &amp; obtain more accurate prediction maps and compare them to the observed distribution.
+* **Very difficult** to account for ...
 
-* These prediction maps can be used to identify areas worth sampling. 
+* I had to team up with some statisticians at the Department of Mathematics
 
-* Citizen Scientists could be used to sample these areas.
-
-* Their data could then be used to recompute the prediction maps
+* If you want more detail about point process models visit my website: https://benjamincretois.netlify.app/post/
 
 ---
-class: center, middle
+class: inverse, center, middle
 
-&lt;img src="imgs/tri.png" width="2283" /&gt;
+# 2nd phase
+
+## A case study on data fusion / data integration
+
+## 📊
 
 ---
-class: center, middle
+# 2nd phase
 
-PhD plan in a nutshell:
+&lt;img src="imgs/isaac.png" width="400px" /&gt;
 
-&lt;img src="imgs/nutshell.png" width="1769" /&gt;
+*Taken from: Isaac et al. 2020. Data Integration for Large-Scale Models of Species Distributions, Trends in Ecology and Evolution. 
+
+---
+# A case study on data fusion / data integration
+
+* With a data fusion strategy, I would like to evaluate the possibility of improving the performance of Citizen Science data in making species' distribution maps
+
+* I would use a wide range of dataset including TOV-E data, Hunting dataset ...
+
+---
+class: inverse, middle, center
+
+# Prosection for after the PhD ...
+
+# 🤷
 
 ---
 class: inverse, middle, center
 
 # Thank you for your attention
+
+### Slides available here: https://bencretois.github.io/my_work_presentation/#1
 
 ![](https://media.giphy.com/media/f4Dv2Al5GORPtLahyd/giphy.gif)
 
