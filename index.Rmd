@@ -26,6 +26,23 @@ class: inverse, middle, center
 `r icon::fa("link")` [benjamincretois.netlify.app](https://benjamincretois.netlify.app/)
 
 ---
+class: inverse, middle, center
+
+# **A bit of Background ...**
+
+## What is Citizen science?
+---
+# What is Citizen Science?
+
+* The contribution of citizens to the collection of data and in some cases to the protocol
+
+* In my case, citizen science data represents species observations made by a citizen
+
+--
+
+![](https://media.giphy.com/media/l378asbpIR5DTsdqg/giphy.gif)
+
+---
 class: inverse, center, middle
 
 # **1st phase: Using distribution data**
@@ -190,10 +207,6 @@ knitr::include_graphics('imgs/obsprocess.png')
 
 * Are telemetry observations so different from citizen science?
 
---
-
-* Is there any seasonal differences?
-
 ---
 class: center, middle
 
@@ -207,16 +220,7 @@ class: center, middle
 knitr::include_graphics('imgs/telem.png')
 ```
 ---
-# 2nd phase
-
-* We hypothesize roe deer distribution not to be so different from Citizen Science observations
-
---
-
-* For moose, this could be another story ...
-
----
-class: inverse, center, middle
+class: inverse
 
 # Challenges
 
@@ -233,7 +237,7 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-# 2nd phase
+# **2nd phase**
 
 ## A case study on data fusion / data integration
 
@@ -253,7 +257,7 @@ knitr::include_graphics('imgs/isaac.png')
 
 * With a data fusion strategy, I would like to evaluate the possibility of improving the performance of Citizen Science data in making species' distribution maps
 
-* I would use a wide range of dataset including TOV-E data, Hunting dataset ...
+* I would use a wide range of dataset including TOV-E data, Hunting dataset, camera traps ...
 
 ---
 class: inverse, middle, center

@@ -7,7 +7,7 @@ Updated: 03/06/2018
 /* Package defaults that we slightly tweak */
 
 a, a > code {
-  color: #9B870C; /* rgb(249, 38, 114) */
+  color: #CD295A; /* rgb(249, 38, 114) */
   text-decoration: none;
 }
 
@@ -26,9 +26,8 @@ a, a > code {
 
 /* color tweak */
 .inverse {
-  background-color: #272822;
-  color: #777872;
-  text-shadow: 0 0 20px #333;
+  background-color: #38ADAE;
+  color: #000000;
 }
 
 /* slightly spacing change */
@@ -114,7 +113,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url('imgs/philipp-pilz-iQRKBNKyRpo-unsplash.jpg');
+  background-image: url();
   /* background-position: 13% 35%;
   background-size: 95px;
   background-color: #fff; 
@@ -167,7 +166,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* section divider red */
 .title-slide-section-red {
-  background-color: #9B870C;
+  background-color: #CD295A;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
@@ -178,7 +177,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* section divider grey */
 .title-slide-section-grey {
-  background-color: #515151;
+  background-color: #CD295A;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
@@ -196,7 +195,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 /*~~~~~~~~~~~~~~~~~~*/
 
 .title-slide-final {
-  background-color: #272822;
+  background-color: #38ADAE;
   color: #fff;
   padding-left: 100px;
   text-shadow: 0 0 20px #333;
@@ -224,7 +223,7 @@ strong {
 }
 
 .RUred {
-  color: #9B870C;
+  color: #CD295A;
 }
 
 /* Add blue tag */
@@ -255,11 +254,15 @@ strong {
 
 /* Color adjustments to headers */
 h1 {
-  color: #9B870C;
+  color: #CD295A;
+}
+
+h2 {
+  color: #CD295A;
 }
 
 h3 {
-  color: #515151;
+  color: #CD295A;
 }
 
 /* Font size tags */
