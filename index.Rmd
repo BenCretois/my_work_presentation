@@ -40,7 +40,51 @@ class: inverse, middle, center
 
 --
 
-![](https://media.giphy.com/media/l378asbpIR5DTsdqg/giphy.gif)
+.center[
+![](https://media.giphy.com/media/l378asbpIR5DTsdqg/giphy.gif)]
+
+---
+# What is Citizen Science?
+
+* It is expensive for ecologists to collect data and we usually need a lot of it to make proper inferences.
+
+* In our project we wonder if we can use the Citizen Science observations to make proper inferences regarding species' ecology and biodiversity conservation in general.
+
+---
+class: inverse, middle, center
+
+# **Work for the Department & Courses**
+
+---
+# My work for the Department
+
+* I have been involved in multiple courses including **GEOG 2015**, **GEOG 3527**, teaching in some physical geography courses and **GEOG 3006**
+
+* With Thomas we have experienced doing websites for the students: https://bencretois.github.io/GEOG3006/
+
+--
+
+* At this very moment I have cumulated more than 1,000 hours of duty for the Department.
+
+---
+# Courses
+
+* I have completed **GEOG8523** GIS Data Capture and Mapping 2 - 10 Credits
+
+* I have completed **ECS530** Analysing Spatial Data - 7.5 Credits
+
+* I am currently taking **GEOG8001** Theoretical Perspectives in Geography - 5 Credits
+
+* I am currently taking **MA8001** Mathematical Sciences Seminar for PhD Students - 7.5 Credits
+
+--
+
+* I will be done this semester with the courses!
+
+---
+class: inverse, center, middle
+
+# **My PhD work!**
 
 ---
 class: inverse, center, middle
@@ -262,7 +306,7 @@ knitr::include_graphics('imgs/isaac.png')
 ---
 class: inverse, middle, center
 
-# Prosection for after the PhD ...
+# **Prosection for after the PhD ...**
 
 # `r emo::ji("doubt")`
 
