@@ -1,8 +1,8 @@
 ---
 title: "My background and role at NINA"
 author: "Benjamin Cretois"
-institute: "NTNU, Dpt of Geography"
-date: "2020/12/15"
+institute: "NINA"
+date: " "
 output:
   xaringan::moon_reader:
     css: ["rutgers-tidyverse.css","rutgers-fonts_og.css"]
@@ -39,12 +39,12 @@ class: inverse, center, middle
 
 # 2 - PhD work
 
-### An introduction to the subject
+### An introduction to the topic
 
 # `r emo::ji('library')`
 
 ---
-### An introduction to the subject
+### An introduction to the topic
 
 * What is **citizen science**?
 
@@ -52,14 +52,11 @@ class: inverse, center, middle
 
 * We have to differentiate the *observation* and *reporting process*
 
-.center[
-```{r, echo = FALSE, out.width="400px"}
-knitr::include_graphics('imgs/data_gen.png')
-```
-]
+
+<img src="imgs/data_gen.png",  width="800" />
 
 ---
-### An introduction to the subject
+### An introduction to the topic
 
 .center[
 ```{r, echo = FALSE, out.width="500px"}
@@ -68,7 +65,7 @@ knitr::include_graphics('imgs/map_biases_cs.png')
 ]
 
 ---
-### An introduction to the subject
+### An introduction to the topic
 
 * During the PhD we looked more precisely at the data generation process in hunters and 
 the extent of data they are able to collect
@@ -83,7 +80,7 @@ knitr::include_graphics('imgs/paper1.png')
 
 
 ---
-### An introduction to the subject
+### An introduction to the topic
 
 In citizen science the observation process is driven by multiple actors which can be grouped into four broad categories:
 
@@ -95,8 +92,9 @@ In citizen science the observation process is driven by multiple actors which ca
 
 * **How**: length of time spent in a site, method to detect the species (i.e. visual / sonor)
 
+
 ---
-### An introduction to the subject
+### An introduction to the topic
 
 * Do the biases really matter when making inference about species' ecology?
 
@@ -114,12 +112,12 @@ In citizen science the observation process is driven by multiple actors which ca
 properties at different scales.
 
 ---
-### An introduction to the subject
+### An introduction to the topic
 
 The notion of scale in ecology:
 
 .center[
-```{r, echo = FALSE, out.width="400px"}
+```{r, echo = FALSE, out.width="600px"}
 knitr::include_graphics('imgs/order_selection.png')
 ```
 ]
@@ -129,12 +127,12 @@ class: inverse, center, middle
 
 # 2 - PhD work
 
-### Results of this work
+### Results
 
 # `r emo::ji('stats')`
 
 ---
-### Results of this work
+### Results
 
 
 * Intuitively, we can think that **increasingly precise information** about distribution 
@@ -156,7 +154,7 @@ knitr::include_graphics('imgs/size_grid.png')
 ]
 
 ---
-### Results of this work
+### Results
 
 * At **coarse grain size** (i.e. at county levels), the distribution of the species is very plausible although not detailed.
 
@@ -166,7 +164,7 @@ knitr::include_graphics('imgs/size_grid.png')
 
 
 ---
-### Results of this work
+### Results
 
 Dealing with biases at large scale:
 
@@ -179,7 +177,7 @@ knitr::include_graphics('imgs/papers_tot.png')
 ]
 
 ---
-### Results of this work
+### Results
 
 Dealing with biases at small scale:
 
@@ -202,7 +200,7 @@ class: inverse, center, middle
 ---
 # What I can help you with!
 
-* I have been hired in Miljødata to **give support to research projects** in diverse ways: data management, collection, analysis with statistics and machine learning and visualization
+* Give support to research projects in diverse ways: **data management**, **collection**, **analysis** with statistics and machine learning and **visualization**
 
 .center[
 ```{r, echo = FALSE, out.width="400px"}
@@ -210,7 +208,7 @@ knitr::include_graphics('imgs/ds_workflow.png')
 ```
 ]
 
-* Even though my PhD has made me work mainly with terrestrial systems and large mammals, I am **very open to collaborate with very different topics**!
+* I am **very open to collaborate with very different topics**!
 
 * I can also apply to / be part of research projects 
 
@@ -218,9 +216,7 @@ knitr::include_graphics('imgs/ds_workflow.png')
 
 
 ---
-### What I can help you with!
-
-*Statistics, machine learning and quantitative methods:*
+### Statistics, machine learning and quantitative methods:
 
 * At NTNU We developed a **Quantitative methods** course from scratch for Master students
 
@@ -235,9 +231,7 @@ knitr::include_graphics('imgs/websiteR.png')
 * I have good knowledge of **species distribution** and **occupancy** models
 
 ---
-### What I can help you with!
-
-*Spatial data analysis:*
+### Spatial data analysis:
 
 * My PhD largely focused on **spatial data analysis**
 
@@ -252,9 +246,7 @@ knitr::include_graphics('imgs/distribung.png')
 ]
 
 ---
-### What I can help you with
-
-*Image / sound detection and classification:*
+### Image / sound detection and classification:
 
 * I recently found a strong interest in **deep learning**!
 
@@ -291,11 +283,14 @@ class: center, inverse
 
 --
 
-.RUred[I have a strong interest in .orange[deep learning] for image / sound]
+.RUred[I have a strong interest in .orange[deep learning] for image / sound classification and wish to do more of it!]
 
 --
 
 .RUred[I am quite knowledgeable in .orange[R] and try to learn more .orange[Python]]
+
+<img src="https://media.giphy.com/media/7Jmpo2rbOduJ2ziEKH/giphy.gif" width="250", height="250">
+
 
 ---
 
