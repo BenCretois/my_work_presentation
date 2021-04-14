@@ -118,7 +118,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url("imgs/wart.PNG");
+  background-image: url("front.PNG");
 }
 
 /* H1 fonts */
