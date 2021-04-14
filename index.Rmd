@@ -32,7 +32,7 @@ class: inverse, center, middle
 
 * PhD in **Spatial Data Analysis** at NTNU and NINA under the supervision of *Jan Ketil Rød, Erlend B. Nilsen and JDC Linnell*
 
-* Data Scientist at NINA in **Miljødata** since the 1st of April
+* Data Scientist at NINA in **Miljødata** since the 1st of April 2021
 
 ---
 class: inverse, center, middle
@@ -71,7 +71,7 @@ knitr::include_graphics('imgs/map_biases_cs.PNG')
 ---
 ### An introduction to the topic
 
-* During the PhD we looked more precisely at the data generation process in hunters and 
+* During the PhD we looked more precisely at the **data generation process in hunters** and 
 the extent of data they are able to collect
 
 * This lead to a first paper:
@@ -80,6 +80,10 @@ the extent of data they are able to collect
 ```{r, echo = FALSE, out.width="500px"}
 knitr::include_graphics('imgs/paper1.PNG')
 ```
+]
+
+.footnote[
+Link to [Cretois et al. 2020](https://www.sciencedirect.com/science/article/pii/S2351989420303632)
 ]
 
 
@@ -126,6 +130,10 @@ knitr::include_graphics('imgs/order_selection.PNG')
 ```
 ]
 
+.footnote[
+Source: [Froehly et al. (2020)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228705)
+]
+
 ---
 class: inverse, center, middle
 
@@ -139,7 +147,7 @@ class: inverse, center, middle
 ### Results
 
 
-* Intuitively, we can think that **increasingly precise information** about distribution 
+* **Increasingly precise information** about distribution 
 is required **to know about the true presence of the species** over the landscape
 
 * At very small grain sizes, it becomes difficult to even confirm the presence/absence
@@ -166,6 +174,15 @@ knitr::include_graphics('imgs/size_grid.PNG')
 
 * With **finer grain sizes comes more uncertainty** regarding roe deer distribution and small grain only partially captures the distribution of roe deer in Norway.
 
+--
+
+* How to deal with very biased data at **large** and **small** scale?
+
+.center[
+```{r, echo = FALSE, out.width="600px"}
+knitr::include_graphics('imgs/inference_cs.PNG')
+```
+]
 
 ---
 ### Results
@@ -180,6 +197,10 @@ knitr::include_graphics('imgs/papers_tot.PNG')
 ```
 ]
 
+.footnote[
+Link to [Linnell & Cretois et al. 2020](https://www.sciencedirect.com/science/article/pii/S0006320719318312)
+]
+
 ---
 ### Results
 
@@ -191,6 +212,10 @@ Dealing with biases at small scale:
 ```{r, echo = FALSE, out.width="800px"}
 knitr::include_graphics('imgs/papers_4_5.PNG')
 ```
+]
+
+.footnote[
+Link to [Sicacha Parada al. 2020](https://www.sciencedirect.com/science/article/pii/S2211675320300403)
 ]
 
 ---
@@ -247,6 +272,10 @@ knitr::include_graphics('imgs/websiteR.PNG')
 ```{r, echo = FALSE, out.width="500px"}
 knitr::include_graphics('imgs/distribung.png')
 ```
+]
+
+.footnote[
+Figure from [Linnell & Cretois et al. 2020](https://www.sciencedirect.com/science/article/pii/S0006320719318312)
 ]
 
 ---
