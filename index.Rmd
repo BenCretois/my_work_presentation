@@ -53,14 +53,18 @@ class: inverse, center, middle
 * We have to differentiate the *observation* and *reporting process*
 
 
-<img src="imgs/data_gen.png",  width="800" />
+.center[
+```{r, echo = FALSE, out.width="400px"}
+knitr::include_graphics('imgs/data_gen.PNG')
+```
+]
 
 ---
 ### An introduction to the topic
 
 .center[
 ```{r, echo = FALSE, out.width="500px"}
-knitr::include_graphics('imgs/map_biases_cs.png')
+knitr::include_graphics('imgs/map_biases_cs.PNG')
 ```
 ]
 
@@ -74,7 +78,7 @@ the extent of data they are able to collect
 
 .center[
 ```{r, echo = FALSE, out.width="500px"}
-knitr::include_graphics('imgs/paper1.png')
+knitr::include_graphics('imgs/paper1.PNG')
 ```
 ]
 
@@ -118,7 +122,7 @@ The notion of scale in ecology:
 
 .center[
 ```{r, echo = FALSE, out.width="600px"}
-knitr::include_graphics('imgs/order_selection.png')
+knitr::include_graphics('imgs/order_selection.PNG')
 ```
 ]
 
@@ -149,7 +153,7 @@ multiple habitat types
 
 .center[
 ```{r, echo = FALSE, out.width="400px"}
-knitr::include_graphics('imgs/size_grid.png')
+knitr::include_graphics('imgs/size_grid.PNG')
 ```
 ]
 
@@ -172,7 +176,7 @@ Dealing with biases at large scale:
 
 .center[
 ```{r, echo = FALSE, out.width="600px"}
-knitr::include_graphics('imgs/papers_tot.png')
+knitr::include_graphics('imgs/papers_tot.PNG')
 ```
 ]
 
@@ -185,7 +189,7 @@ Dealing with biases at small scale:
 
 .center[
 ```{r, echo = FALSE, out.width="800px"}
-knitr::include_graphics('imgs/papers_4_5.png')
+knitr::include_graphics('imgs/papers_4_5.PNG')
 ```
 ]
 
@@ -204,7 +208,7 @@ class: inverse, center, middle
 
 .center[
 ```{r, echo = FALSE, out.width="400px"}
-knitr::include_graphics('imgs/ds_workflow.png')
+knitr::include_graphics('imgs/ds_workflow.PNG')
 ```
 ]
 
@@ -224,7 +228,7 @@ knitr::include_graphics('imgs/ds_workflow.png')
 
 .center[
 ```{r, echo = FALSE, out.width="400px"}
-knitr::include_graphics('imgs/websiteR.png')
+knitr::include_graphics('imgs/websiteR.PNG')
 ```
 ]
 
@@ -255,7 +259,7 @@ knitr::include_graphics('imgs/distribung.png')
 
 .center[
 ```{r, echo = FALSE, out.width="800px"}
-knitr::include_graphics('imgs/panda2.png')
+knitr::include_graphics('imgs/panda2.PNG')
 ```
 ]
 
