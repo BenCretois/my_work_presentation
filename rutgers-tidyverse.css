@@ -7,7 +7,7 @@ Updated: 03/06/2018
 /* Package defaults that we slightly tweak */
 
 a, a > code {
-  color: #CD295A; /* rgb(249, 38, 114) */
+  color: #148D8D; /* rgb(249, 38, 114) */
   text-decoration: none;
 }
 
@@ -26,13 +26,18 @@ a, a > code {
 
 /* color tweak */
 .inverse {
-  background-color: #38ADAE;
+  background-color: #00154F;
   color: #000000;
 }
 
 /* slightly spacing change */
-.inverse h1, .inverse h2, .inverse h3 {
-  color: #f3f3f3;
+.inverse h1, .inverse h2 {
+  color: #F49F1C;
+  line-height: 1.0em;
+}
+
+.inverse h3 {
+  color: #FFFFFF;
   line-height: 1.0em;
 }
 
@@ -113,11 +118,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url();
-  /* background-position: 13% 35%;
-  background-size: 95px;
-  background-color: #fff; 
-  padding-left: 100px; delete this for 4:3 aspect ratio */
+  background-image: url(wart.png);
 }
 
 /* H1 fonts */
@@ -223,7 +224,7 @@ strong {
 }
 
 .RUred {
-  color: #CD295A;
+  color: #FFFFFF;
 }
 
 /* Add blue tag */
@@ -250,6 +251,11 @@ strong {
 /* Add white tag */
 .white {
   color: white;
+}
+
+/* Add orange tag */
+.orange{
+  color: #F49F1C;
 }
 
 /* Color adjustments to headers */

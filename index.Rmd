@@ -1,9 +1,8 @@
 ---
-title: "PhD Progress"
-subtitle: 
+title: "My background and role at NINA"
 author: "Benjamin Cretois"
-institute: "Department of Geography, NTNU"
-date: ""
+institute: "NTNU, Dpt of Geography"
+date: "2020/12/15"
 output:
   xaringan::moon_reader:
     css: ["rutgers-tidyverse.css","rutgers-fonts_og.css"]
@@ -12,311 +11,291 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      
 ---
-class: inverse, middle, center
+class: inverse, center, middle
 
-## Keep in touch!
+# A quick overview of my background
 
-`r icon::fa("paper-plane")` [benjamin.cretois@ntnu.no](benjamin.cretois@ntnu.no)
-
-`r icon::fa("twitter")` [Benjamin_M_CR](https://twitter.com/Benjamin_M_CR)
-
-`r icon::fa("github")` [BenCretois](https://github.com/BenCretois)
-
-`r icon::fa("link")` [benjamincretois.netlify.app](https://benjamincretois.netlify.app/)
+# `r emo::ji('cap')`
 
 ---
-class: inverse, middle, center
+# 1 - Background
 
-# **A bit of Background ...**
+* A year in **Classes preparatoires** in **Mathematics**
 
-## What is Citizen science?
+* Two years in the **Navy infantry** as a sergeant 
+
+* Bachelor in **Ecology and Evolution**
+
+* Master in **Environment and Law** - Master thesis done at NINA under the supervision of *JDC Linnell*
+
+* PhD in **Spatial Data Analysis** at NTNU and NINA under the supervision of *Jan Ketil Rød, Erlend B. Nilsen and JDC Linnell*
+
+* Data Scientist at NINA in **Miljødata** since the 1st of April
+
 ---
-# What is Citizen Science?
+class: inverse, center, middle
 
-* The contribution of citizens to the collection of data and in some cases to the protocol
+# 2 - PhD work
 
-* In my case, citizen science data represents species observations made by a citizen
+### An introduction to the subject
 
---
+# `r emo::ji('library')`
+
+---
+### An introduction to the subject
+
+* What is **citizen science**?
+
+* How are citizen science data generated?
+
+* We have to differentiate the *observation* and *reporting process*
 
 .center[
-![](https://media.giphy.com/media/l378asbpIR5DTsdqg/giphy.gif)]
+```{r, echo = FALSE, out.width="400px"}
+knitr::include_graphics('imgs/data_gen.png')
+```
+]
 
 ---
-# What is Citizen Science?
+### An introduction to the subject
 
-* It is expensive for ecologists to collect data and we usually need a lot of it to make proper inferences.
-
-* In our project we wonder if we can use the Citizen Science observations to make proper inferences regarding species' ecology and biodiversity conservation in general.
-
----
-class: inverse, middle, center
-
-# **Work for the Department & Courses**
+.center[
+```{r, echo = FALSE, out.width="500px"}
+knitr::include_graphics('imgs/map_biases_cs.png')
+```
+]
 
 ---
-# My work for the Department
+### An introduction to the subject
 
-* I have been involved in multiple courses including **GEOG 2015**, **GEOG 3527**, teaching in some physical geography courses and **GEOG 3006**
+* During the PhD we looked more precisely at the data generation process in hunters and 
+the extent of data they are able to collect
 
-* With Thomas we have experienced doing websites for the students: https://bencretois.github.io/GEOG3006/
+* This lead to a first paper:
 
---
-
-* At this very moment I have cumulated more than 1,000 hours of duty for the Department.
-
----
-# Courses
-
-* I have completed **GEOG8523** GIS Data Capture and Mapping 2 - 10 Credits
-
-* I have completed **ECS530** Analysing Spatial Data - 7.5 Credits
-
-* I am currently taking **GEOG8001** Theoretical Perspectives in Geography - 5 Credits
-
-* I am currently taking **MA8001** Mathematical Sciences Seminar for PhD Students - 7.5 Credits
-
---
-
-* I will be done this semester with the courses!
-
----
-class: inverse, center, middle
-
-# **My PhD work!**
-
----
-class: inverse, center, middle
-
-# **1st phase: Using distribution data**
-## First paper
-## `r emo::ji("newspaper")`
-
----
-# First paper 
-
-* **Compile** different source of data to make distribution maps of ungulates species in Europe.
-
-* The resulting distribution maps are used to **inform about human-wildlife coexistence**.
-
-```{r, echo = FALSE, out.width="600px"}
+.center[
+```{r, echo = FALSE, out.width="500px"}
 knitr::include_graphics('imgs/paper1.png')
 ```
+]
+
 
 ---
+### An introduction to the subject
 
-# First paper
+In citizen science the observation process is driven by multiple actors which can be grouped into four broad categories:
 
-* **We summarize** knowledge on wild ungulates distribution in Europe.
+* **Where**: ease of accessibility (public transport, distance to roads ...), aesthetic value of the landscape
 
-* About **90%** of Europe is home to at least one species of wild ungulates.
+* **When**: increased numbers of observations in recent years, weekend bias
 
-* **75%** of wild ungulate distribution is located outside protected areas
+* **Why**: spending time outdoor, interested in specific species
 
-* We explore the interactions between ungulates and humans in Europe's anthropogenic landscape.
-
-* More than **7 million ungulates** are harvested each year in Europe.
+* **How**: length of time spent in a site, method to detect the species (i.e. visual / sonor)
 
 ---
-class: center, middle
+### An introduction to the subject
 
-```{r, echo = FALSE}
+* Do the biases really matter when making inference about species' ecology?
+
+
+--
+
+
+* It depends at which **scale** we are making the inference
+
+* Are the biases important if we wish to infer species' presence in 50x50km grid cell?
+
+* Can we use citizen science observations to infer species' habitat use?
+
+* In a nutshell, the thesis assesses the **potential of citizen science observations** to infer ecological
+properties at different scales.
+
+---
+### An introduction to the subject
+
+The notion of scale in ecology:
+
+.center[
+```{r, echo = FALSE, out.width="400px"}
+knitr::include_graphics('imgs/order_selection.png')
+```
+]
+
+---
+class: inverse, center, middle
+
+# 2 - PhD work
+
+### Results of this work
+
+# `r emo::ji('stats')`
+
+---
+### Results of this work
+
+
+* Intuitively, we can think that **increasingly precise information** about distribution 
+is required **to know about the true presence of the species** over the landscape
+
+* At very small grain sizes, it becomes difficult to even confirm the presence/absence
+of a species
+
+* This is **especially the case for highly mobile animals** that range over wide areas and
+multiple habitat types
+
+--
+
+
+.center[
+```{r, echo = FALSE, out.width="400px"}
+knitr::include_graphics('imgs/size_grid.png')
+```
+]
+
+---
+### Results of this work
+
+* At **coarse grain size** (i.e. at county levels), the distribution of the species is very plausible although not detailed.
+
+* Therefore, biases such as distance to trails or distance to roads do not influence this knowledge as there is road network in all counties in Norway
+
+* With **finer grain sizes comes more uncertainty** regarding roe deer distribution and small grain only partially captures the distribution of roe deer in Norway.
+
+
+---
+### Results of this work
+
+Dealing with biases at large scale:
+
+* **Combining dataset**: different dataset carry different biases and the information brought by each dataset will differ as the grain size decreases (CS data vs hunter data vs car-ungulate collisions)
+
+.center[
+```{r, echo = FALSE, out.width="600px"}
+knitr::include_graphics('imgs/papers_tot.png')
+```
+]
+
+---
+### Results of this work
+
+Dealing with biases at small scale:
+
+* **Quantifying and integrating the biases** in CS observations into a statistical model
+
+.center[
+```{r, echo = FALSE, out.width="800px"}
+knitr::include_graphics('imgs/papers_4_5.png')
+```
+]
+
+---
+class: inverse, center, middle
+
+# 3 - My role at NINA
+
+### ... and what I can help you with!
+
+# `r emo::ji('stats')`
+---
+# What I can help you with!
+
+* I have been hired in Miljødata to **give support to research projects** in diverse ways: data management, collection, analysis with statistics and machine learning and visualization
+
+.center[
+```{r, echo = FALSE, out.width="400px"}
+knitr::include_graphics('imgs/ds_workflow.png')
+```
+]
+
+* Even though my PhD has made me work mainly with terrestrial systems and large mammals, I am **very open to collaborate with very different topics**!
+
+* I can also apply to / be part of research projects 
+
+* I would actually like to continue doing **some research** along with other Miljødata tasks
+
+
+---
+### What I can help you with!
+
+*Statistics, machine learning and quantitative methods:*
+
+* At NTNU We developed a **Quantitative methods** course from scratch for Master students
+
+* For this course, I created a website **in R** that is hosted on **Github**: **https://bencretois.github.io/GEOG3006/**
+
+.center[
+```{r, echo = FALSE, out.width="400px"}
+knitr::include_graphics('imgs/websiteR.png')
+```
+]
+
+* I have good knowledge of **species distribution** and **occupancy** models
+
+---
+### What I can help you with!
+
+*Spatial data analysis:*
+
+* My PhD largely focused on **spatial data analysis**
+
+* *Spatial statistical models*: point processes, CAR models
+
+* *GIS software*: ArcGIS, QGIS and R (yes GIS in R!)
+
+.center[
+```{r, echo = FALSE, out.width="500px"}
 knitr::include_graphics('imgs/distribung.png')
 ```
+]
+
+---
+### What I can help you with
+
+*Image / sound detection and classification:*
+
+* I recently found a strong interest in **deep learning**!
+
+* For instance, applying **Neural networks** to image / sound classification
+
+
+.center[
+```{r, echo = FALSE, out.width="800px"}
+knitr::include_graphics('imgs/panda2.png')
+```
+]
 
 ---
 class: center, middle
 
-```{r, echo = FALSE}
-knitr::include_graphics('imgs/summary1.png')
-```
+background-image: url(https://miro.medium.com/max/3840/1*oB3S5yHHhvougJkPXuc8og.gif)
+background-size: contain 
+
+.footnote[
+Source: [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)]
+
+
 
 ---
+class: center, inverse
 
-class: inverse, center, middle
+# 4 - To summarize ...
 
-# **1st phase: Using distribution data**
-## Second paper
-## `r emo::ji("newspaper")`
-
----
-# 2nd paper
-
-* In this paper, **we evaluate the relative effects of both the human footprint and protected areas** on large mammal distribution at a continental scale.
-
-* We found that the broad scale distribution of most large mammals in Europe includes areas of high to very high human disturbance. 
-
-* **Their distribution is primarily driven by environmental variables** rather than the human footprint or the presence of protected areas. 
-
-```{r, echo = FALSE, out.width="600px"}
-knitr::include_graphics('imgs/paper2.png')
-```
-
----
-class: center, middle
-
-```{r, echo = FALSE}
-knitr::include_graphics('imgs/effecthuman.png')
-```
----
-class: inverse, center, middle
-
-# **1st phase: Using distribution data**
-## 3rd paper
-## `r emo::ji("newspaper")`
-
----
-# 3rd paper
-
-* **A huge amount of distributional data come from hunting bags.** For instance deer maps in Norway from hunting bag data.
-
-* We acknowledge hunters’ contribution to biodiversity monitoring in the 3rd paper.
-
-```{r, out.width= "600px", echo = FALSE}
-knitr::include_graphics('imgs/paper3.png')
-```
-
----
-# 3rd paper
-
-We found that hunters contribute to monitoring biodiversity in all its key characteristics:
-
-* **Distribution** - through carcasses ...
-
-* **Phenology** - through carcasses ...
-
-* **Physiology** - through carcasses ...
-
-* **Migration** - through carcasses too ...
-
-And much more!
-
----
-class: inverse, center, middle
-
-# **2nd phase: Understanding distribution data**
-## Characterizing CS data & account for its biases
-
-# `r emo::ji("stats")`
-
----
-# 2nd phase
-
-* While useful (as shown in phase 1), **distribution maps heavily depends on the quality & the amount of data available**. This is especially true at lower resolution!
-
-* Because of this, certain areas may be non sampled even though the species of interest is present.
-
-* We need to understand the drivers of citizen science observations & which biases they exhibit. 
-
-* We can then use this understanding to properly integrate the dataset & obtain more accurate prediction maps.
-
----
-class: center, middle
-
-```{r, echo = FALSE, out.width="400px",message=FALSE, warning=FALSE}
-library(sf)
-library(tidyverse)
-library(tmap)
-
-data <- read_sf("data/cs_telem_oslo_roedeer.shp")
-data_cs <- data %>% filter(type == 'cs')
-
-tmap_mode('plot')
-tm_shape(data_cs) + tm_dots()
-```
-
-Some areas **should** host roe deer but are not sampled by CS.
-
-Some areas are non hunted but hosts citizen scientists observations.
----
-# 2nd phase
-
-How are data generated? `r emo::ji("spy")`
+.RUred[I have worked extensively with .orange[crouwdsourced / Citizen science] data during my PhD]
 
 --
 
-```{r, echo = FALSE}
-knitr::include_graphics('imgs/obsprocess.png')
-```
-
----
-# 2nd phase
-
-* Case study on the distribution of roe deer (*Capreolus capreolus*) and moose (*Alces alces*).
-
-* We have telemetry data and we are able to infer the **“true”** use of the habitat or where the species is in reality.
+.RUred[I have experience with .orange[spatial data analysis] and more generally statistics, machine learning and GIS]
 
 --
 
-* Are telemetry observations so different from citizen science?
+.RUred[I have a strong interest in .orange[deep learning] for image / sound]
+
+--
+
+.RUred[I am quite knowledgeable in .orange[R] and try to learn more .orange[Python]]
 
 ---
-class: center, middle
 
-```{r, echo = FALSE}
-knitr::include_graphics('imgs/cs_bias.png')
-```
----
-class: center, middle
-
-```{r, echo = FALSE}
-knitr::include_graphics('imgs/telem.png')
-```
----
-class: inverse
-
-# Challenges
-
-* The model I want to implement (i.e. **Point process model**) is relatively new in ecology even though quite developed in other areas.
-
-* The data I have are subjects to **Spatial biases** and **Temporal biases**. We need to include both of them in our statistical model
-
-* **Very difficult** to account for ...
-
-* I had to team up with some statisticians at the Department of Mathematics
-
-* If you want more detail about point process models visit my website: https://benjamincretois.netlify.app/post/
-
----
-class: inverse, center, middle
-
-# **2nd phase**
-
-## A case study on data fusion / data integration
-
-## `r emo::ji("stats")`
-
----
-# 2nd phase
-
-```{r, echo = FALSE, out.width="400px"}
-knitr::include_graphics('imgs/isaac.png')
-```
-
-*Taken from: Isaac et al. 2020. Data Integration for Large-Scale Models of Species Distributions, Trends in Ecology and Evolution. 
-
----
-# A case study on data fusion / data integration
-
-* With a data fusion strategy, I would like to evaluate the possibility of improving the performance of Citizen Science data in making species' distribution maps
-
-* I would use a wide range of dataset including TOV-E data, Hunting dataset, camera traps ...
-
----
-class: inverse, middle, center
-
-# **Prosection for after the PhD ...**
-
-# `r emo::ji("doubt")`
-
----
-class: inverse, middle, center
-
-# Thank you for your attention
-
-### Slides available here: https://bencretois.github.io/my_work_presentation/#1
-
-![](https://media.giphy.com/media/f4Dv2Al5GORPtLahyd/giphy.gif)
-
-Slides made with `r emo::ji("heart")` and **xaringan**
