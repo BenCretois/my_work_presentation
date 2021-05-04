@@ -18,8 +18,8 @@ class: inverse, center, middle
 # A quick overview of my background
 
 # `r emo::ji('cap')`
-
 ---
+
 # 1 - Background
 
 * A year in **Classes preparatoires** in **Mathematics**
@@ -227,9 +227,18 @@ class: inverse, center, middle
 
 # `r emo::ji('stats')`
 ---
+# What is a data scientist?
+
+.center[
+```{r, echo = FALSE, out.width="500px"}
+knitr::include_graphics('imgs/datascience.PNG')
+```
+]
+
+---
 # What I can help you with!
 
-* Give support to research projects in diverse ways: **data management**, **collection**, **analysis** with statistics and machine learning and **visualization**
+* Give support to research projects in diverse ways using **machine learning** and **statistics**
 
 .center[
 ```{r, echo = FALSE, out.width="400px"}
@@ -245,22 +254,20 @@ knitr::include_graphics('imgs/ds_workflow.PNG')
 
 
 ---
-### Statistics, machine learning and quantitative methods:
-
-* At NTNU We developed a **Quantitative methods** course from scratch for Master students
-
-* For this course, I created a website **in R** that is hosted on **Github**: **https://bencretois.github.io/GEOG3006/**
+### Machine learning vs statistics
 
 .center[
 ```{r, echo = FALSE, out.width="400px"}
-knitr::include_graphics('imgs/websiteR.PNG')
+knitr::include_graphics('imgs/stat_vs_ml.PNG')
 ```
 ]
 
-* I have good knowledge of **species distribution** and **occupancy** models
+.center[
+**Machine learning is not a fancy name for statistics!**
+]
 
 ---
-### Spatial data analysis:
+### Spatial data analysis & statistics:
 
 * My PhD largely focused on **spatial data analysis**
 
@@ -279,7 +286,7 @@ Figure from [Linnell & Cretois et al. 2020](https://www.sciencedirect.com/scienc
 ]
 
 ---
-### Image / sound detection and classification:
+### Machine learning for image & sound classification:
 
 * I recently found a strong interest in **deep learning**!
 
@@ -301,6 +308,45 @@ background-size: contain
 .footnote[
 Source: [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)]
 
+---
+### Image / sound detection and classification:
+
+.center[
+<html>
+<audio controls>
+  <source src="other_file/mix_exple.wav" type="audio/wav">
+</audio></html>
+]
+
+.center[
+```{r, echo = FALSE, out.width="350px"}
+knitr::include_graphics('imgs/waveform.PNG')
+```
+]
+
+.center[
+```{r, echo = FALSE, out.width="350px"}
+knitr::include_graphics('imgs/spectrogram.PNG')
+```
+]
+
+---
+### Image / sound detection and classification:
+
+
+.center[
+```{r, echo = FALSE, out.width="1000px"}
+knitr::include_graphics('imgs/audio_to_classification.PNG')
+```
+]
+
+--
+
+.center[
+```{r, echo = FALSE, out.width="400px"}
+knitr::include_graphics('imgs/pytorch.jpeg')
+```
+]
 
 
 ---
