@@ -26,9 +26,9 @@ class: inverse, center, middle
 
 * Two years in the **Navy infantry** as a sergeant 
 
-* Bachelor in **Ecology and Evolution**
+* Bachelor in **Ecology and Evolution** in Caen, France
 
-* Master in **Environment and Law** - Master thesis done at NINA under the supervision of *JDC Linnell*
+* Master in **Environment and Law** in Rennes, France - Master thesis done at NINA under the supervision of *JDC Linnell*
 
 * PhD in **Spatial Data Analysis** at NTNU and NINA under the supervision of *Jan Ketil Rød, Erlend B. Nilsen and JDC Linnell*
 
@@ -62,15 +62,6 @@ knitr::include_graphics('imgs/data_gen.PNG')
 ---
 ### An introduction to the topic
 
-.center[
-```{r, echo = FALSE, out.width="500px"}
-knitr::include_graphics('imgs/map_biases_cs.PNG')
-```
-]
-
----
-### An introduction to the topic
-
 * During the PhD we looked more precisely at the **data generation process in hunters** and 
 the extent of data they are able to collect
 
@@ -90,34 +81,37 @@ Link to [Cretois et al. 2020](https://www.sciencedirect.com/science/article/pii/
 ---
 ### An introduction to the topic
 
-In citizen science the observation process is driven by multiple actors which can be grouped into four broad categories:
+For citizen science data, the observation process is driven by multiple factors which can be grouped into **four broad categories**:
 
-* **Where**: ease of accessibility (public transport, distance to roads ...), aesthetic value of the landscape
-
-* **When**: increased numbers of observations in recent years, weekend bias
-
-* **Why**: spending time outdoor, interested in specific species
-
-* **How**: length of time spent in a site, method to detect the species (i.e. visual / sonor)
-
+.center[
+```{r, echo = FALSE, out.width="800px"}
+knitr::include_graphics('imgs/q_cs.PNG')
+```
+]
 
 ---
 ### An introduction to the topic
 
-* Do the biases really matter when making inference about species' ecology?
+.center[
+```{r, echo = FALSE, out.width="500px"}
+knitr::include_graphics('imgs/map_biases_cs.PNG')
+```
+]
 
+---
+### An introduction to the topic
 
---
+For citizen science data, the observation process is driven by multiple factors which can be grouped into **four broad categories**:
 
+.center[
+```{r, echo = FALSE, out.width="800px"}
+knitr::include_graphics('imgs/q_cs.PNG')
+```
+]
 
-* It depends at which **scale** we are making the inference
+* But do the biases really matter when making inference about species' ecology?
 
-* Are the biases important if we wish to infer species' presence in 50x50km grid cell?
-
-* Can we use citizen science observations to infer species' habitat use?
-
-* In a nutshell, the thesis assesses the **potential of citizen science observations** to infer ecological
-properties at different scales.
+* **It depends at which scale we are making the inference!**
 
 ---
 ### An introduction to the topic
@@ -147,16 +141,13 @@ class: inverse, center, middle
 ### Results
 
 
-* **Increasingly precise information** about distribution 
-is required **to know about the true presence of the species** over the landscape
+* **The lower the resolution, the more information is needed** to infer species' distribution
 
 * At very small grain sizes, it becomes difficult to even confirm the presence/absence
 of a species
 
 * This is **especially the case for highly mobile animals** that range over wide areas and
 multiple habitat types
-
---
 
 
 .center[
@@ -236,6 +227,19 @@ knitr::include_graphics('imgs/datascience.PNG')
 ]
 
 ---
+### Machine learning vs statistics
+
+.center[
+```{r, echo = FALSE, out.width="400px"}
+knitr::include_graphics('imgs/stat_vs_ml.PNG')
+```
+]
+
+.center[
+**Machine learning is not a fancy name for statistics!**
+]
+
+---
 # What I can help you with!
 
 * Give support to research projects in diverse ways using **machine learning** and **statistics**
@@ -252,19 +256,6 @@ knitr::include_graphics('imgs/ds_workflow.PNG')
 
 * I would actually like to continue doing **some research** along with other Miljødata tasks
 
-
----
-### Machine learning vs statistics
-
-.center[
-```{r, echo = FALSE, out.width="400px"}
-knitr::include_graphics('imgs/stat_vs_ml.PNG')
-```
-]
-
-.center[
-**Machine learning is not a fancy name for statistics!**
-]
 
 ---
 ### Spatial data analysis & statistics:
@@ -300,15 +291,6 @@ knitr::include_graphics('imgs/panda2.PNG')
 ]
 
 ---
-class: center, middle
-
-background-image: url(https://miro.medium.com/max/3840/1*oB3S5yHHhvougJkPXuc8og.gif)
-background-size: contain 
-
-.footnote[
-Source: [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)]
-
----
 ### Image / sound detection and classification:
 
 .center[
@@ -319,35 +301,19 @@ Source: [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)]
 ]
 
 .center[
-```{r, echo = FALSE, out.width="350px"}
-knitr::include_graphics('imgs/waveform.PNG')
-```
-]
-
-.center[
-```{r, echo = FALSE, out.width="350px"}
-knitr::include_graphics('imgs/spectrogram.PNG')
+```{r, echo = FALSE, out.width="600px"}
+knitr::include_graphics('imgs/fourier_tug.PNG')
 ```
 ]
 
 ---
-### Image / sound detection and classification:
+class: center, middle
 
+background-image: url(https://miro.medium.com/max/3840/1*oB3S5yHHhvougJkPXuc8og.gif)
+background-size: contain 
 
-.center[
-```{r, echo = FALSE, out.width="1000px"}
-knitr::include_graphics('imgs/audio_to_classification.PNG')
-```
-]
-
---
-
-.center[
-```{r, echo = FALSE, out.width="400px"}
-knitr::include_graphics('imgs/pytorch.jpeg')
-```
-]
-
+.footnote[
+Source: [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)]
 
 ---
 class: center, inverse
